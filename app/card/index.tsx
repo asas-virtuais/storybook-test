@@ -8,6 +8,7 @@ const Card = styled.div`
   border-radius: 8px;
   max-width: 437.5px;
   row-gap: 5px;
+  min-height: 336px;
 `
 
 export default Card

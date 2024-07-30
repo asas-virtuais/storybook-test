@@ -22,6 +22,9 @@ const GlobalStyles = createGlobalStyle`
     font-size: 15px;
     font-weight: 700;
     line-height: 26px;
+    ::marker {
+      color: #D2AD81;
+    }
   }
   p {
     font-size: 15px;
