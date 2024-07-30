@@ -5,12 +5,30 @@ import { poppins, nunito } from '../app/fonts'
 
 const GlobalStyles = createGlobalStyle`
   body {
-    font-family: ${poppins.style.fontFamily};
+    font-family: ${nunito.style.fontFamily};
+    background-color: #F5F5F8;
+    color: #353844;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: ${nunito.style.fontFamily};
+    font-family: ${poppins.style.fontFamily};
   }
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  ul {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
 `
 
 const theme = {}
@@ -32,9 +50,9 @@ const preview: Preview = {
       matchers: {
         color: /(background|color)$/i,
         date: /Date$/i,
-      },
-    },
-  },
+      }
+    }
+  }
 }
 
 export default preview

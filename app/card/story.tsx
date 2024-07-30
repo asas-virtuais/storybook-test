@@ -16,10 +16,10 @@ export const CardStory: Story = {
   render: () => (
     <Card>
       <TopLeft>
-        <img width={183} height={173} src='/top-left.png' />
+        <img width={183} height={172.5} src='/top-left.png' />
       </TopLeft>
       <BottomLeft>
-        <img width={183.5} height={160} src='/bottom-left.png' />
+        <img width={183} height={160} src='/bottom-left.png' />
       </BottomLeft>
       <Contents>
         <h3>Photography</h3>

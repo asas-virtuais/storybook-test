@@ -7,7 +7,7 @@ const Card = styled.div`
   background: white;
   border-radius: 8px;
   max-width: 437.5px;
-  height: 336px;
+  row-gap: 5px;
 `
 
 export default Card
