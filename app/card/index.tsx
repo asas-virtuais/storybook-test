@@ -1,39 +1,13 @@
-import { PropsWithChildren } from 'react'
+import styled from 'styled-components'
 
-export type Props = PropsWithChildren<{}>
-
-export const CardGrid = ({children}: PropsWithChildren) => {
-  return (
-    null
-  )
-}
-
-export const CardTopImage = () => {
-  return (
-    null
-  )
-}
-
-export const CardBottomImage = () => {
-  return (
-    null
-  )
-}
-
-export const CardContent = ({children}: PropsWithChildren) => {
-  return (
-    null
-  )
-}
-
-const Card = ({children}: Props) => {
-  return (
-      <CardGrid> {/* 1.38419619 1fr 1.38419619fr */}
-        <CardTopImage/>
-        <CardBottomImage/>
-        <CardContent>{children}</CardContent>
-      </CardGrid>
-  )
-}
+const Card = styled.div`
+  display: grid
+  grid-template-columns: 1fr 1.38419619fr
+  grid-template-rows: auto auto
+  background: white
+  border-radius: 8px
+  max-width: 437.5px
+  height: 336px
+`
 
 export default Card
