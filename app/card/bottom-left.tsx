@@ -2,8 +2,8 @@ import { PropsWithChildren } from 'react'
 import styled from 'styled-components'
 
 const BottomImageContainer = styled.div`
-  grid-column: 1
-  grid-row: 2
+  grid-column: 1;
+  grid-row: 2;
 `
 
 const CardBottomLeft = ({ children }: PropsWithChildren) => {

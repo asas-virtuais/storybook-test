@@ -16,13 +16,19 @@ export const CardStory: Story = {
   render: () => (
     <Card>
       <TopLeft>
-        <img src='/top-left.png' />
+        <img width={183} height={173} src='/top-left.png' />
       </TopLeft>
       <BottomLeft>
-        <img src='/bottom-left.png' />
+        <img width={183.5} height={160} src='/bottom-left.png' />
       </BottomLeft>
       <Contents>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptate laborum quod porro dignissimos, velit beatae deleniti, labore culpa ad maxime reprehenderit quidem ea minus eaque doloremque voluptas vitae optio illum possimus asperiores animi. Unde expedita dignissimos ex dicta! Dignissimos est expedita sunt, libero quasi consequuntur architecto quis error impedit repudiandae quaerat numquam voluptates?
+        <h3>Photography</h3>
+        <ul>
+          <li>Drone Photography</li>
+          <li>Interiors</li>
+          <li>Exteriors / Architectural</li>
+        </ul>
+        <p>Every photograph we produce finds the beauty in your property while serving as a profitable asset.</p>
       </Contents>
     </Card>
   ),
